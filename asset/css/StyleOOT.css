@@ -1,0 +1,74 @@
+@font-face {
+    font-family: hyrule;
+    src: url('../font/Hylia/HyliaSerifBeta-Regular.otf');
+}
+
+* {
+    font-family: hyrule;
+}
+
+header {
+
+    color: goldenrod;
+    background-color: black;
+    
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+h1{
+    padding: 30px;
+}
+
+.headerlink ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+main {
+    background-image: url(../image/zelda-ocarina-of-time-nintendo.jpg);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.footerhaut {
+    display: flex;
+    justify-content: center;
+}
+
+.footerbas {
+    display: flex;
+    justify-content: center;
+}
+
+
+.abs {
+    top: 0;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+}
+
+.rel {
+    height: 200px;
+    position: relative;
+    background-color: blue;
+}
+
+footer {
+    background-color: chocolate;
+}
+
+
+
